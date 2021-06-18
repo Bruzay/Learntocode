@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(back.png);
+    background-color: #ff7a7a;
+    font-family: "Poppins", sans-serif;;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 204px;
+}
+.learn{
+    width: 390px;
+    color: white;
+    font-size: 45px;
+    margin-left: -4em;
+}
+.seehow{
+    margin-top: 18px;
+    width: 450px;
+    font-size: 13px;
+    color: white;
+    margin-left: -14em;
+}
+.tryit{
+    background: #6055a5;
+    height: 3em;
+    text-align: center;
+   color: whitesmoke;
+   border-radius: 5px;
+   opacity: initial 41px;
+   
+}
+b{
+    background: #6055a5;
+}
+.credentials{
+    margin-top: 22px;
+    height: 411px;
+    border-radius: 8px;
+    width: 27em;
+    background-color: white;
+    background: white;
+    
+}
+.firstname{
+    margin-top: 20px;
+    background-color: white;
+    background: white;
+    padding-top: 1.5em;
+}
+.lastname{
+    margin-top: 20px;
+    background-color: white;
+    background: white;
+}
+.email{
+    margin-top: 20px;
+    background-color: white;
+    background: white;
+}
+.password{
+    margin-top: 20px;
+    background-color: white;
+    background: white;
+}
+.claim{
+    margin-top: 20px;
+    height: 3em;
+    width: 27em;
+    margin-left: 2.2em;
+    background-color: #38cc8c;
+    background: #38cc8c;
+    border-radius: 5px;
+    color: white;
+}
+.claim:hover{
+    background: #057947;
+}
+.claim{
+    cursor: pointer;
+}
+
+.click{
+    margin-top: 20px;
+    font-size: 11px;
+    margin-left: 3.2em;
+    background-color: white;
+    background: white;
+}
+
+.sectiontwo{
+    margin-left: 97px;
+    margin-top: -3em;
+}
+
+input{
+   height: 3em;
+   width: 27em;
+   margin-left: 2.2em;
+   border-radius: 5px;
+   margin-top: 0.7em;
+   background-color: white;
+   background: white;
+   font-weight: bold;
+}
+
+.terms{
+    color: red;
+    background-color: white;
+    background: white;
+}
+.terms{
+    cursor: pointer;
+}
+.sectionone{
+    margin-top: 6em;
+}
+.btn{
+    background-color: white;
+    background: white;
+}
+
+
+@media screen and (max-width: 600px){
+    .sectiontwo{
+        margin-left: 9em;
+        margin-top: 33em;
+    }
+    
+    .sectionone{
+        margin-left: 22em;
+    }
+
+    .main{
+        display: block;
+        justify-content: center;
+        margin-top: 204px;
+    }
+
+    .tryit{
+        background: #6055a5;
+        height: 3em;
+        text-align: center;
+       color: whitesmoke;
+       border-radius: 5px;
+       margin-left: 1.8em;
+       width: 26em;
+       margin-top: -25em;
+       }
+
+     .credentials{
+        margin-top: 23px;
+        height: 411px;
+        border-radius: 8px;
+        width: 27em;
+        background-color: white;
+        background: white;
+        margin-left: 1.2em;
+    }
+}
